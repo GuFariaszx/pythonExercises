@@ -1,11 +1,11 @@
 n = int(input("Digite quantos termos da sequência Fibonacci: "))
 
-firstNum = 0
-secondNum = 1
+n1 = 0
+n2 = 1
 
-print("Sequência Fibonacci:")
+print(f"Sequência Fibonacci com {n} termos:")
 for i in range(n):
-    print(firstNum, end=" ")
-    firstNum, secondNum = secondNum, firstNum + secondNum
-
+    if n != None:
+        print(n1, end=" ")
+        n1, n2 = n2, n1 + n2
 

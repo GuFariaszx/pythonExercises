@@ -8,3 +8,4 @@ resultArea = ladoRetangulo * baseRetangulo
 
 print(f'O perímetro de seu Retângulo é {resultPerimetro:.2f} {unidadeMedida}')
 print(f'A Área de seu Retângulo é {resultArea:.2f} {unidadeMedida} cúbico')
+
