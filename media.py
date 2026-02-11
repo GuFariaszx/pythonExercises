@@ -7,6 +7,6 @@ result = (num1+num2+num3+num4) / 4
 resultType = float(input('Digite a média:'))
 
 if resultType == result:
-    print('Você acertou a média, parabéns')
+    print(f'Você acertou a média, parabéns! É {result}')
 else:
     print(f'Você errou o resultado da média desses quatro números, o resultado é {result}')
